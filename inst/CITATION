@@ -1,0 +1,34 @@
+citHeader("To cite IPMRF in publications use:")
+
+
+citEntry(entry="Article",
+         title  = " An ensemble of ordered logistic regression and random forest for child garment size matching",
+         author = personList(person(family="Pierola", given="A."),
+	                     person(family="Epifanio", given="I."),person(family="Alemany", given="S.")),
+	 journal      = "Computers & Industrial Engineering",
+         year         = "2016",
+         volume       = "101",
+         number       = "",
+         pages        = " 455--465",
+         month        = "October",
+                 textVersion =
+         paste("Pierola, A. and Epifanio, I. and Alemany, S. (2016)",
+               "An ensemble of ordered logistic regression and random forest for child garment size matching. ",
+               "Computers & Industrial Engineering, 101, 455--465.",
+               sep=""))
+
+citEntry(entry="Article",
+         title  = "Intervention in prediction measure: a new approach to assessing variable importance for random forests",
+         author = personList(person(family="Epifanio", given="I.")),
+	 journal      = "BMC Bioinformatics",
+         year         = "2017",
+         volume       = "18",
+         number       = "1",
+         pages        = "230",
+         url          = "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1650-8",
+                textVersion =
+         paste("Epifanio I. (2017). ",
+               "Intervention in prediction measure: a new approach to assessing variable importance for random forests. ",
+               "BMC Bioinformatics. 18, 230.",
+               sep=""))
+

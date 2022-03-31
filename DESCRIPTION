@@ -3,11 +3,27 @@ Type: Package
 Title: Intervention in Prediction Measure (IPM) for Random Forests
 Version: 1.2.1
 Date: 2022-03-03
-Author: Irene Epifanio, Stefano Nembrini, Aleix Alcacer
-Maintainer: Irene Epifanio <epifanio@uji.es>
-Imports: party, randomForest, gbm
-Suggests: mlbench, randomForestSRC, ranger
+Authors@R: 
+  c(person(given = "Irene",
+           family = "Epifanio",
+           role = c("aut", "cre"),
+           email = "epifanio@uji.es"),
+    person(given = "Aleix",
+           family = "Alcacer",
+           role = c("aut"),
+           email = "aalcacer@uji.es"),
+    person(given = "Stefano",
+           family = "Nembrini",
+           role = "aut"))
+Imports:
+  party,
+  randomForest,
+  gbm
+Suggests:
+  mlbench,
+  randomForestSRC,
+  ranger
 Description: Computes IPM for assessing variable importance for random forests. See details at I. Epifanio (2017) <DOI:10.1186/s12859-017-1650-8>. 
 License: GPL-3
 NeedsCompilation: no
-Packaged: 2022-03-25 11:53:25 UTC; aleix11alcacer
+RoxygenNote: 7.1.2

@@ -1,6 +1,6 @@
 getTreegbm = function (gbm, X, k) {
   #library(gbm)
-  list <- pretty.gbm.tree(gbm, i.tree = k)
+  list <- gbm::pretty.gbm.tree(gbm, i.tree = k)
   a <- list
   v2int <- function(v) {
     sum((-v + 1) / 2 * 2 ^ seq(0, (length(v) - 1), 1))

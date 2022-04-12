@@ -27,3 +27,4 @@ Description: Computes IPM for assessing variable importance for random forests. 
 License: GPL-3
 NeedsCompilation: no
 RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)

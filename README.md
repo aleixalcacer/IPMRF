@@ -5,7 +5,7 @@
 [![R-CMD-check](https://github.com/aleixalcacer/IPMRF/workflows/R-CMD-check/badge.svg)](https://github.com/aleixalcacer/IPMRF/actions)
 <!-- badges: end -->
 
-The goal of IPMRF is to ...
+IPMRF computes IPM for assessing variable importance for random forests.
 
 ## Installation
 
@@ -16,12 +16,4 @@ You can install the development version of IPMRF from [GitHub](https://github.co
 devtools::install_github("aleixalcacer/IPMRF")
 ```
 
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(IPMRF)
-## basic example code
-```
 

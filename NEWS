@@ -1,3 +1,5 @@
+Version: 1.2.1 [2022-04-12]
+*Package structure has been updated by Aleix Alcacer.
 
 Version: 1.2 [2017-08-09]
 *New funtions made by Stefano Nembrini compute IPM with package gbm.

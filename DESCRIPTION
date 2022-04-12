@@ -2,7 +2,7 @@ Package: IPMRF
 Type: Package
 Title: Intervention in Prediction Measure (IPM) for Random Forests
 Version: 1.2.1
-Date: 2022-03-03
+Date: 2022-04-12
 Authors@R: 
   c(person(given = "Irene",
            family = "Epifanio",
